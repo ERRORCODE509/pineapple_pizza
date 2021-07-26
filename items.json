@@ -1,0 +1,33 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "pineapple_pizza",
+    "name": { "str": "pineapple pizza" },
+    "weight": "350 g",
+    "color": "yellow",
+    "spoils_in": "2 days",
+    "container": "box_small",
+    "comestible_type": "FOOD",
+	"use_action": {
+      "type": "consume_drug",
+      "activation_message": "You heretic.",
+      "effects": [
+        { "id": "foodpoison", "duration": 69420 },
+        { "id": "badpoison", "duration": 69420 },
+        { "id": "shakes", "duration": 69420 }
+      ]
+    },
+    "symbol": "o",
+	"healthy": -666,
+    "calories": 666,
+    "description": "Some (heretical) pineapple pizza. A kill-on-sight order was issued on such pizzas prior to the Cataclysm, and you should still follow said order.",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "wheat", "flesh", "fruit" ],
+    "volume": "1 L",
+    "charges": 4,
+    "flags": [ "EATEN_HOT", "NUTRIENT_OVERRIDE" ],
+    "fun": -666,
+	"vitamins": [ [ "mutant_toxin", 666 ] ]
+  }
+]

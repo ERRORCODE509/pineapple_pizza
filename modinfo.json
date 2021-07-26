@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "pineapple_pizza",
+    "name": "pineapple_pizza",
+    "authors": [ "ERROR_CODE" ],
+    "description": "What's that? I put a negative symbol in front of the health and morale values?",
+    "category": "items",
+    "dependencies": [ "dda" ]
+  }
+]
